@@ -1,6 +1,7 @@
 // Place your key bindings in this file to override the defaults
 [
-{"key":"ctrl+f5", "command": "workbench.action.reloadWindow",
+{"key":"ctrl+f5", 
+    "command": "workbench.action.reloadWindow",
     "when": "editortextfocus"
 }
 ]
