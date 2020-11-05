@@ -1,7 +1,7 @@
 {
     "workbench.startupEditor": "newUntitledFile",
     "editor.wordWrap": "on",
-    "files.autosave":"afterdelay",
-    "editor.minimap.enabled": false
-
+    "files.autoSave": "afterDelay",
+    "editor.minimap.enabled": false,
+    "workbench.editor.enablePreview": false,
 }
