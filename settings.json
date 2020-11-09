@@ -1,7 +1,15 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
     "editor.wordWrap": "on",
     "files.autoSave": "afterDelay",
     "editor.minimap.enabled": false,
     "workbench.editor.enablePreview": false,
+    "workbench.colorTheme": "Default Dark+",
+    "window.zoomLevel": 0,
+    "remote.SSH.remotePlatform": {
+        "rasp": "linux",
+        "192.168.178.36": "linux"
+    },
+    
+    "git.ignoreMissingGitWarning": true,
+    "workbench.startupEditor": "newUntitledFile",
 }
