@@ -1,7 +1,11 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
     "editor.wordWrap": "on",
     "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 3000,
     "editor.minimap.enabled": false,
     "workbench.editor.enablePreview": false,
+    "editor.formatOnSave": true,
+    "python.pythonPath": "/bin/python3",
+    "git.confirmSync": false,
+    "extensions.ignoreRecommendations": true,
 }
