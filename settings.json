@@ -1,15 +1,35 @@
 {
     "editor.wordWrap": "on",
-    "files.autoSave": "afterDelay",
     "editor.minimap.enabled": false,
-    "workbench.editor.enablePreview": false,
-    "workbench.colorTheme": "Default Dark+",
-    "window.zoomLevel": 0,
-    "remote.SSH.remotePlatform": {
-        "rasp": "linux",
-        "192.168.178.36": "linux"
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "explorer.confirmDelete": false,
+    "files.autoSave": "afterDelay",
+    "files.associations": {
+        "*.ps1": "powershell"
     },
     
     "git.ignoreMissingGitWarning": true,
+
+    "rasp": "linux",
+        "remote.SSH.remotePlatform": {
+        "192.168.178.36": "linux"
+    },
+    
+    "window.zoomLevel": 1,
     "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.enablePreview": false,
+    "workbench.colorTheme": "Default Dark+",
+    
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[shellscript]": {
+        "editor.defaultFormatter": "shakram02.bash-beautify"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "files.eol": "\n"
+
+
 }
