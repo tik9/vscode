@@ -1,25 +1,16 @@
 {
-    "workbench.editor.enablePreview": false,
     "editor.wordWrap": "on",
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 3000,
-    "editor.minimap.enabled": false,
     "editor.formatOnSave": true,
-    "git.confirmSync": false,
+    "editor.minimap.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 2000,
     "files.eol": "\n",
+    "git.confirmSync": false,
+    "telemetry.enableTelemetry": false,
     "window.zoomLevel": 1,
     "workbench.colorTheme": "Visual Studio Dark",
-    // "files.associations": {
-    //     "*.ps1": "powershell"
-    // },
-  
-    "explorer.confirmDelete": false,
-    "telemetry.enableTelemetry": false,
-    "explorer.confirmDragAndDrop": false,
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editor.enablePreview": false,
+
 }
