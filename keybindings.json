@@ -1,10 +1,9 @@
-// Place your key bindings in this file to override the defaults
 [
 {"key":"ctrl+f5", 
     "command": "workbench.action.reloadWindow",
     "when": "editortextfocus"
 },
-{ "key": "ctrl+alt+right",        "command": "workbench.action.moveEditorToNextGroup" },
-{ "key": "ctrl+alt+left",         "command": "workbench.action.moveEditorToPreviousGroup" },
+{ "key": "ctrl+shift+right",        "command": "workbench.action.moveEditorToNextGroup" },
+{ "key": "ctrl+shift+left",         "command": "workbench.action.moveEditorToPreviousGroup" },
 
 ]
