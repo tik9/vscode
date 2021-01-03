@@ -5,5 +5,5 @@
 },
 { "key": "ctrl+shift+right",        "command": "workbench.action.moveEditorToNextGroup" },
 { "key": "ctrl+shift+left",         "command": "workbench.action.moveEditorToPreviousGroup" },
-
+{     "key": "ctrl+shift+b",     "command": "workbench.action.tasks.runTask" }
 ]

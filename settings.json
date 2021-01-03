@@ -1,6 +1,7 @@
 {
     "editor.wordWrap": "on",
     "editor.minimap.enabled": false,
+    // "editor.renderWhitespace": true,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     "files.autoSave": "afterDelay",

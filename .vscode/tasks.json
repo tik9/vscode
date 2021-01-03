@@ -1,0 +1,7 @@
+{
+    "command": "/snap/bin/chromium",    
+    "windows": {
+        "command": "explorer.exe"
+    },
+    "args":["${file}"]
+}

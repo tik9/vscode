@@ -1,0 +1,10 @@
+formulahendry.code-runner
+foxundermoon.shell-format
+lonefy.vscode-JS-CSS-HTML-formatter
+ms-python.python
+ms-toolsai.jupyter
+ms-vscode.powershell
+rogalmic.bash-debug
+shakram02.bash-beautify
+sohamkamani.code-eol
+tht13.python
