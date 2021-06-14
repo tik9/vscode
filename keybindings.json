@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
     {
         "key": "ctrl+f4",
@@ -35,3 +36,29 @@
         "command": "workbench.action.tasks.runTask"
     }
 ]
+=======
+[
+    {
+    "key": "ctrl+f5",
+    "command": "workbench.action.reloadWindow",
+    "when": "editortextfocus"
+  },
+  {
+    "key": "ctrl+shift+right",
+    "command": "workbench.action.moveEditorToNextGroup"
+  },
+  {
+    "key": "ctrl+shift+left",
+    "command": "workbench.action.moveEditorToPreviousGroup"
+  },
+{
+    "key": "ctrl+shift+b",
+    "command": "workbench.action.tasks.runTask"
+},
+{
+    "key": "alt+f5",
+    "command": "workbench.action.debug.stop",
+    "when": "inDebugMode && !focusedSessionIsAttach"
+}
+]
+>>>>>>> db706ead7e3df406e80755cd2d2363a9bc5cf750
