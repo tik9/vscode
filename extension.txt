@@ -8,5 +8,4 @@ ms-python.vscode-pylance
 ms-vscode.powershell
 rogalmic.bash-debug
 rogalmic.zsh-debug
-shakram02.bash-beautify
 yzhang.markdown-all-in-one

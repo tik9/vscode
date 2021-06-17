@@ -22,9 +22,11 @@
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter.notebook.ipynb"
     },
-    "redhat.telemetry.enabled": false,
     "security.workspace.trust.untrustedFiles": "open",
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[shellscript]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
     },
 }
