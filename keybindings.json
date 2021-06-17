@@ -1,52 +1,19 @@
-<<<<<<< HEAD
-[
-    {
-        "key": "ctrl+f4",
-        // Go to current debugging position
-        "command": "extension.multiCommand.execute",
-        "args": {
-            "sequence": [
-                "workbench.debug.action.focusCallStackView",
-                "list.clear",
-                "list.focusFirst",
-                "list.select"
-            ]
-        }
-    },
-    {
-        "key": "ctrl+.",
-        "command": "editor.action.quickFix",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+f6",
-        "command": "workbench.action.reloadWindow",
-        "when": "editortextfocus"
-    },
-    {
-        "key": "ctrl+shift+right",
-        "command": "workbench.action.moveEditorToNextGroup"
-    },
-    {
-        "key": "ctrl+shift+left",
-        "command": "workbench.action.moveEditorToPreviousGroup"
-    },
-    {
-        "key": "ctrl+shift+b",
-        "command": "workbench.action.tasks.runTask"
-    }
-]
-=======
 [
   {
-    "key":  "alt+q",
+    "key": "ctrl+.",
+    "command": "editor.action.quickFix",
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "alt+q",
     "command": "workbench.action.terminal.sendSequence",
     "args": {
       // "text": "${env:USERNAME}",  // this works fwf = ${fileWorkspaceFolder}
-       "text" : "file = ${file};  workspaceFolder = ${workspaceFolder}; "
-    }  
+      "text": "file = ${file};  workspaceFolder = ${workspaceFolder}; "
+    }
   },
-    {
+  {
     "key": "ctrl+f5",
     "command": "workbench.action.reloadWindow",
     "when": "editortextfocus"
@@ -59,14 +26,9 @@
     "key": "ctrl+shift+left",
     "command": "workbench.action.moveEditorToPreviousGroup"
   },
-{
-    "key": "ctrl+shift+b",
-    "command": "workbench.action.tasks.runTask"
-},
-{
+  {
     "key": "alt+f5",
     "command": "workbench.action.debug.stop",
     "when": "inDebugMode && !focusedSessionIsAttach"
-}
+  }
 ]
->>>>>>> db706ead7e3df406e80755cd2d2363a9bc5cf750
