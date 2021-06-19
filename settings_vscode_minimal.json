@@ -1,13 +1,11 @@
 {
-    "workbench.colorTheme": "Visual Studio Dark",
-    "git.ignoreMissingGitWarning": true,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 3000,
     "files.eol": "\n",
     "workbench.editor.enablePreview": false,
     "editor.wordWrap": "on",
-    "breadcrumbs.enabled": true,
     "editor.minimap.enabled": false,
-    "window.zoomLevel": 0,
-    "explorer.confirmDelete": false
+    "window.zoomLevel": 1,
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.enabled":false 
 }
