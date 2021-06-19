@@ -7,5 +7,9 @@
     "editor.minimap.enabled": false,
     "window.zoomLevel": 1,
     "explorer.confirmDelete": false,
-    "security.workspace.trust.enabled":false 
+    "security.workspace.trust.enabled":false,
+    "extensions.showRecommendationsOnlyOnDemand":true,
+    "workbench.startupEditor": "none",
+    "workbench.activityBar.visible":false
+
 }

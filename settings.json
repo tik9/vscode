@@ -1,6 +1,9 @@
 {
     "window.zoomLevel": 1,
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 3000,
+    "security.workspace.trust.enabled":false,
+    "extensions.ignoreRecommendations": true,
+    "workbench.startupEditor": "none",
+    "workbench.activityBar.visible":false
 }
