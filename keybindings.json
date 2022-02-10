@@ -8,7 +8,6 @@
     "key": "alt+q",
     "command": "workbench.action.terminal.sendSequence",
     "args": {
-      // "text": "${env:USERNAME}",  // this works fwf = ${fileWorkspaceFolder}
       "text": "file = ${file};  workspaceFolder = ${workspaceFolder}; "
     }
   },
