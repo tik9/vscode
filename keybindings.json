@@ -1,10 +1,9 @@
 [
   {
-    "key": "ctrl+.",
-    "command": "editor.action.quickFix",
-    "when": "editorTextFocus"
+    "key": "shift+f5",
+    "command": "workbench.action.debug.stop",
+    "when": "inDebugMode && !focusedSessionIsAttach"
   },
-
   {
     "key": "alt+q",
     "command": "workbench.action.terminal.sendSequence",
@@ -14,27 +13,43 @@
     }
   },
   {
+    "key": "ctrl+.",
+    "command": "editor.action.quickFix",
+    "when": "editorTextFocus"
+  },
+
+  {
     "key": "ctrl+f5",
     "command": "workbench.action.reloadWindow",
     "when": "editortextfocus"
   },
   {
-    "key": "ctrl+shift+right",
-    "command": "workbench.action.moveEditorToNextGroup"
+    "key": "shift+alt+f",
+    "command": "editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "editor.action.formatDocument.none",
+    "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+  },
+  {
+    "key": "ctrl+insert",
+    "command": "editor.action.changeAll",
+    "when": "editorTextFocus && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
   },
   {
     "key": "ctrl+shift+left",
     "command": "workbench.action.moveEditorToPreviousGroup"
   },
   {
-    "key": "alt+f5",
-    "command": "workbench.action.debug.stop",
-    "when": "inDebugMode && !focusedSessionIsAttach"
-  },
-  {
-    "key": "ctrl+insert",
-    "command": "editor.action.changeAll",
-    "when": "editorTextFocus && editorTextFocus && !editorReadonly"
+    "key": "ctrl+shift+right",
+    "command": "workbench.action.moveEditorToNextGroup"
   },
   {
     "key": "f2",
