@@ -1,9 +1,35 @@
 {
-    "window.zoomLevel": 1,
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 3000,
-    "security.workspace.trust.enabled":false,
-    "extensions.ignoreRecommendations": true,
-    "workbench.startupEditor": "none",
-    "workbench.activityBar.visible":false
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  // "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 5000,
+  "security.workspace.trust.enabled": false,
+  "extensions.ignoreRecommendations": true,
+  "workbench.startupEditor": "none",
+  "workbench.activityBar.visible": false,
+  "files.eol": "\n",
+  "editor.formatOnSave": true,
+  "explorer.confirmDelete": false,
+  "window.zoomLevel": 1,
+  "git.ignoreMissingGitWarning": true,
+  "window.title": "${dirty}${activeEditorShort}${separator}${folderPath}${separator}${appName}",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+
+  "workbench.editor.enablePreview": false,
+  "explorer.confirmDragAndDrop": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Visual Studio Dark",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/package-lock.json": true,
+    "**/package.json": true,
+    "out/**": true // Don't search the TypeScript "out" folder
+  }
 }
