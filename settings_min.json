@@ -9,7 +9,6 @@
     "explorer.confirmDelete": false,
     "security.workspace.trust.enabled":false,
     "extensions.showRecommendationsOnlyOnDemand":true,
-    "workbench.startupEditor": "none",
     "workbench.activityBar.visible":false
 
 }
