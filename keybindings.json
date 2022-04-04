@@ -1,58 +1,18 @@
+// Place your key bindings in this file to override the defaults
 [
-  {
-    "key": "shift+f5",
-    "command": "workbench.action.debug.stop",
-    "when": "inDebugMode && !focusedSessionIsAttach"
-  },
-  {
-    "key": "alt+q",
-    "command": "workbench.action.terminal.sendSequence",
-    "args": {
-      "text": "file = ${file};  workspaceFolder = ${workspaceFolder}; "
+    {
+        "key": "cmd+enter",
+        "command": "renameFile",
+        "when": "explorerViewletVisible && filesExplorerFocus"
+    },
+    {
+        "key": "enter",
+        "command": "-renameFile",
+        "when": "explorerViewletVisible && filesExplorerFocus"
+    },
+    {
+        "key": "enter",
+        "command": "list.select",
+        "when": "listFocus && !inputFocus"
     }
-  },
-  {
-    "key": "ctrl+.",
-    "command": "editor.action.quickFix",
-    "when": "editorTextFocus"
-  },
-
-  {
-    "key": "ctrl+f5",
-    "command": "workbench.action.reloadWindow",
-    "when": "editortextfocus"
-  },
-  {
-    "key": "shift+alt+f",
-    "command": "editor.action.formatDocument",
-    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
-  },
-  {
-    "key": "ctrl+shift+i",
-    "command": "editor.action.formatDocument.none",
-    "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
-  },
-  {
-    "key": "ctrl+insert",
-    "command": "editor.action.changeAll",
-    "when": "editorTextFocus && editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "ctrl+shift+k",
-    "command": "editor.action.deleteLines",
-    "when": "textInputFocus && !editorReadonly"
-  },
-  {
-    "key": "ctrl+shift+left",
-    "command": "workbench.action.moveEditorToPreviousGroup"
-  },
-  {
-    "key": "ctrl+shift+right",
-    "command": "workbench.action.moveEditorToNextGroup"
-  },
-  {
-    "key": "f2",
-    "command": "editor.action.commentLine",
-    "when": "editorTextFocus && !editorReadonly"
-  }
 ]

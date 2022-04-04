@@ -1,7 +1,7 @@
 {
   "editor.minimap.enabled": false,
   "editor.wordWrap": "on",
-  // "files.autoSave": "afterDelay",
+  "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 5000,
   "security.workspace.trust.enabled": false,
   "extensions.ignoreRecommendations": true,
@@ -16,20 +16,41 @@
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-
+  "files.exclude": {
+    "node_modules/": true
+  },
   "workbench.editor.enablePreview": false,
   "explorer.confirmDragAndDrop": false,
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  
   "workbench.colorTheme": "Visual Studio Dark",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "liveServer.settings.donotVerifyTags": true,
-
   "search.exclude": {
     "**/node_modules": true,
     "**/package-lock.json": true,
     "**/package.json": true,
     "out/**": true // Don't search the TypeScript "out" folder
+  },
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.defaultProfile.linux": "/bin/zsh",
+  "terminal.integrated.defaultProfile.windows": "/bin/zsh",
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      "args": [
+        "-l"
+      ],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      "args": [
+        "-l"
+      ]
+    },
+    "pwsh": {
+      "path": "pwsh",
+    },
+    "bash (2)": {
+      "path": "/opt/homebrew/bin/bash"
+    }
   }
 }
