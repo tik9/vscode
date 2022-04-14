@@ -5,13 +5,6 @@
     "when": "inDebugMode && !focusedSessionIsAttach"
   },
   {
-    "key": "alt+q",
-    "command": "workbench.action.terminal.sendSequence",
-    "args": {
-      "text": "file = ${file};  workspaceFolder = ${workspaceFolder}; "
-    }
-  },
-  {
     "key": "ctrl+.",
     "command": "editor.action.quickFix",
     "when": "editorTextFocus"
@@ -52,7 +45,12 @@
   {
     "key": "f2",
     "command": "editor.action.commentLine",
-    "when": "editorTextFocus && !editorReadonly"
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "f3",
+    "command": "editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus"
   },
   {
     "key": "cmd+enter",
