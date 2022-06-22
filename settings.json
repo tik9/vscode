@@ -1,33 +1,44 @@
 {
+  "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#135564",
+    "editor.selectionHighlightBackground": "#135564",
+    "editor.findMatchBackground": "#00cc44a8", //Current SEARCH MATCH
+    "editor.findMatchHighlightBackground": "#ff7b00a1" //Other SEARCH MATCHES},
+  },
   "editor.minimap.enabled": false,
   "editor.wordWrap": "on",
   "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 5000,
+  "files.autoSaveDelay": 10000,
   "security.workspace.trust.enabled": false,
   "extensions.ignoreRecommendations": true,
-  // "workbench.startupEditor": "none",
   "workbench.activityBar.visible": false,
   "files.eol": "\n",
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "explorer.confirmDelete": false,
   "window.zoomLevel": 1,
-  "git.ignoreMissingGitWarning": true,
   "window.title": "${dirty}${activeEditorShort}${separator}${folderPath}${separator}${appName}",
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
+  "runOnSave.statusMessageTimeout": 90000,
+  "runOnSave.commands": [
+    {
+      "match": ".*\\.*",
+      "command": "editor.action.formatDocument",
+      "runIn": "vscode"
+    }
+  ],
   "files.exclude": {
-    "node_modules/": true
+    "node_modules/": true,
+    ".vscode": true,
+    "coverage": true,
+    ".gitignore": true,
+    "venv": true
   },
   "workbench.editor.enablePreview": false,
   "explorer.confirmDragAndDrop": false,
-  
   "workbench.colorTheme": "Visual Studio Dark",
   "search.exclude": {
     "**/node_modules": true,
     "**/package-lock.json": true,
     "**/package.json": true,
-    "out/**": true 
   },
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.defaultProfile.linux": "/bin/zsh",
@@ -52,5 +63,14 @@
     "bash (2)": {
       "path": "/opt/homebrew/bin/bash"
     }
-  }
+  },
+  "workbench.startupEditor": "none",
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.NoBrowser": true,
+  "liveServer.settings.root": "/web",
+  "liveServer.settings.useWebExt": true,
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "typescript.updateImportsOnFileMove.enabled": "never"
 }
